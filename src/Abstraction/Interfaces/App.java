@@ -1,4 +1,4 @@
-package Abstraction.AbstractClasses;
+package Abstraction.Interfaces;
 
 public class App {
 
@@ -6,7 +6,9 @@ public class App {
         Student student = new Student();
         student.write();
         student.eat();
-        student.read("OOPs");
-        student.StudentName("Gaurav");
+        student.read("DSA");
+        student.cricket();
+        student.Football();
+        student.Hockey();
     }
 }

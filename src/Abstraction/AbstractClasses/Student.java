@@ -15,4 +15,5 @@ public class Student extends Task{
     public void write() {
         System.out.println("Writing notes.");
     }
+
 }
