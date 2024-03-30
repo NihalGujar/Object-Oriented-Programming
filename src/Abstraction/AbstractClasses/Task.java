@@ -9,6 +9,6 @@ public abstract class Task {
     public void StudentName(String name)
     {
         studentName = name;
-        System.out.println(studentName);
+        System.out.println("Name of the student: " + studentName);
     }
 }
